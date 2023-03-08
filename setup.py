@@ -23,7 +23,7 @@ setup(
     url='http://github.com/praekelt/django-google-analytics',
     packages=find_packages(),
     install_requires=[
-        'Django>=3.2,<4.2',
+        'Django>=3.2,<=4.2a1',
         # https://github.com/celery/celery/issues/7783
         "importlib_metadata<5; python_version=='3.7'",
         'celery<5.2.3',
