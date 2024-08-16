@@ -26,7 +26,7 @@ setup(
         'Django>=3.2,<=5.0',
         # https://github.com/celery/celery/issues/7783
         "importlib_metadata<5; python_version=='3.7'",
-        'celery<5.2.3',
+        'celery<=5.4.0',
         'requests',
         'beautifulsoup4',
         'structlog',
