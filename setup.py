@@ -23,7 +23,7 @@ setup(
     url='http://github.com/praekelt/django-google-analytics',
     packages=find_packages(),
     install_requires=[
-        'Django>=3.2,<=5.1',
+        'Django>=3.2,<=6.1',
         # https://github.com/celery/celery/issues/7783
         "importlib_metadata<5; python_version=='3.7'",
         'celery<=5.4.0',
@@ -49,6 +49,7 @@ setup(
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.14',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
     keywords=['django', 'google', 'analytics'],
